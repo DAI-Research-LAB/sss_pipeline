@@ -1,5 +1,7 @@
 # sss_pipeline
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23657574.svg)](https://doi.org/10.5281/zenodo.23657574)
+
 A reference implementation of a **provenance-linked, segment-indexed data model for side-scan sonar (SSS) data**, accompanying the paper:
 
 > P. Chaisiriprasert, N. Natthakunlanan, and K. Yongsiriwit, "A Provenance-Linked, Segment-Indexed Data Model for Analysis-Ready Side-Scan Sonar Data," *IEEE Access* (submitted).

@@ -4,7 +4,7 @@ title: "sss_pipeline: provenance-linked, segment-indexed side-scan sonar data mo
 version: 1.1.0
 date-released: "2026-10-26"
 license: MIT
-repository-code: "https://github.com/KarnYong/sss_pipeline"
+repository-code: "https://github.com/DAI-Research-LAB/sss_pipeline"
 authors:
   - family-names: "Chaisiriprasert"
     given-names: "Parkpoom"

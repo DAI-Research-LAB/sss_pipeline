@@ -1,0 +1,267 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "seg_000024",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -73.73355,
+        -46.35837333333333
+      ],
+      [
+        -73.733565,
+        -46.358403333333335
+      ],
+      [
+        -73.73357833333333,
+        -46.35843333333333
+      ],
+      [
+        -73.73359,
+        -46.35846333333333
+      ],
+      [
+        -73.73360166666667,
+        -46.358493333333335
+      ],
+      [
+        -73.733615,
+        -46.35852166666667
+      ],
+      [
+        -73.73362666666667,
+        -46.35855333333333
+      ],
+      [
+        -73.73363833333333,
+        -46.358583333333335
+      ],
+      [
+        -73.73365166666666,
+        -46.35861333333333
+      ],
+      [
+        -73.73366166666666,
+        -46.35864333333333
+      ],
+      [
+        -73.73367333333333,
+        -46.358673333333336
+      ],
+      [
+        -73.73368166666667,
+        -46.35870333333333
+      ],
+      [
+        -73.73369166666667,
+        -46.358731666666664
+      ],
+      [
+        -73.7337,
+        -46.358761666666666
+      ],
+      [
+        -73.73370833333334,
+        -46.35879166666667
+      ],
+      [
+        -73.73372,
+        -46.35882
+      ],
+      [
+        -73.73373,
+        -46.35885
+      ],
+      [
+        -73.73373833333333,
+        -46.35888
+      ],
+      [
+        -73.73374833333334,
+        -46.35890833333333
+      ],
+      [
+        -73.73375666666666,
+        -46.358938333333334
+      ],
+      [
+        -73.733765,
+        -46.35896666666667
+      ],
+      [
+        -73.73377333333333,
+        -46.35899666666667
+      ],
+      [
+        -73.73378166666667,
+        -46.359026666666665
+      ],
+      [
+        -73.73378666666666,
+        -46.35904
+      ]
+    ]
+  },
+  "bbox": [
+    -73.73378666666666,
+    -46.35904,
+    -73.73355,
+    -46.35837333333333
+  ],
+  "properties": {
+    "sss:ping_start": 4583,
+    "sss:ping_end": 4744,
+    "sss:n_pings": 162,
+    "sss:length_m": 76.394,
+    "sss:source_sha256": "eff306153151a11908a91fdd669b0c4f22133892833f0b6abcd9c319d6d77c7d",
+    "sss:ingestion_class": "standard",
+    "start_datetime": "2005-07-01T05:17:55.170000Z",
+    "end_datetime": "2005-07-01T05:18:39.760000Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "derived_from",
+      "href": "../../pings.csv",
+      "type": "text/csv",
+      "title": "pings 4583-4744"
+    },
+    {
+      "rel": "root",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "preview": {
+      "href": "../../previews/seg_000024.png",
+      "type": "image/png",
+      "roles": [
+        "overview"
+      ]
+    },
+    "rms_flat": {
+      "href": "../../mosaics/rms_flat/seg_000024.png",
+      "type": "image/png",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "rms",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 199.79136657714844,
+      "roles": [
+        "visual"
+      ]
+    },
+    "rms_flat-grid": {
+      "href": "../../mosaics/rms_flat/seg_000024.npy",
+      "type": "application/octet-stream",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "rms",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 199.79136657714844,
+      "roles": [
+        "data"
+      ]
+    },
+    "mean_flat": {
+      "href": "../../mosaics/mean_flat/seg_000024.png",
+      "type": "image/png",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "mean",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 199.79136657714844,
+      "roles": [
+        "visual"
+      ]
+    },
+    "mean_flat-grid": {
+      "href": "../../mosaics/mean_flat/seg_000024.npy",
+      "type": "application/octet-stream",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "mean",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 199.79136657714844,
+      "roles": [
+        "data"
+      ]
+    },
+    "distance_flat": {
+      "href": "../../mosaics/distance_flat/seg_000024.png",
+      "type": "image/png",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "distance",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 199.79136657714844,
+      "roles": [
+        "visual"
+      ]
+    },
+    "distance_flat-grid": {
+      "href": "../../mosaics/distance_flat/seg_000024.npy",
+      "type": "application/octet-stream",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "distance",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 199.79136657714844,
+      "roles": [
+        "data"
+      ]
+    },
+    "max_flat": {
+      "href": "../../mosaics/max_flat/seg_000024.png",
+      "type": "image/png",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "max",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 199.79136657714844,
+      "roles": [
+        "visual"
+      ]
+    },
+    "max_flat-grid": {
+      "href": "../../mosaics/max_flat/seg_000024.npy",
+      "type": "application/octet-stream",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "max",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 199.79136657714844,
+      "roles": [
+        "data"
+      ]
+    },
+    "rms_none": {
+      "href": "../../mosaics/rms_none/seg_000024.png",
+      "type": "image/png",
+      "sss:slant_range_mode": "none",
+      "sss:fusion": "rms",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 199.79136657714844,
+      "roles": [
+        "visual"
+      ]
+    },
+    "rms_none-grid": {
+      "href": "../../mosaics/rms_none/seg_000024.npy",
+      "type": "application/octet-stream",
+      "sss:slant_range_mode": "none",
+      "sss:fusion": "rms",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 199.79136657714844,
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "NBP0505"
+}

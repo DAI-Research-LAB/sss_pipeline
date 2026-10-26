@@ -1,0 +1,227 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "seg_000016",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -62.92480801666667,
+        -64.65477888333334
+      ],
+      [
+        -62.92483931666666,
+        -64.65479893333334
+      ],
+      [
+        -62.92486998333333,
+        -64.654819
+      ],
+      [
+        -62.92490061666667,
+        -64.65483923333333
+      ],
+      [
+        -62.92493193333333,
+        -64.6548596
+      ],
+      [
+        -62.924963483333336,
+        -64.65487993333333
+      ],
+      [
+        -62.9249943,
+        -64.6549001
+      ],
+      [
+        -62.925024416666666,
+        -64.65492023333333
+      ],
+      [
+        -62.92505558333333,
+        -64.65494046666667
+      ],
+      [
+        -62.925086916666665,
+        -64.65496076666666
+      ],
+      [
+        -62.92511785,
+        -64.65498101666667
+      ],
+      [
+        -62.92514813333333,
+        -64.6550012
+      ],
+      [
+        -62.92517878333334,
+        -64.65502125
+      ],
+      [
+        -62.92517878333334,
+        -64.65502125
+      ]
+    ]
+  },
+  "bbox": [
+    -62.92517878333334,
+    -64.65502125,
+    -62.92480801666667,
+    -64.65477888333334
+  ],
+  "properties": {
+    "sss:ping_start": 9181,
+    "sss:ping_end": 9519,
+    "sss:n_pings": 339,
+    "sss:length_m": 32.299,
+    "sss:source_sha256": "e47341e712a9fa847c8570788f077f74c8c8c8668d59603b0db363e0e9e71cad",
+    "sss:ingestion_class": "repaired",
+    "start_datetime": "2010-01-18T20:45:05.930000Z",
+    "end_datetime": "2010-01-18T20:45:30.090000Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "derived_from",
+      "href": "../../pings.csv",
+      "type": "text/csv",
+      "title": "pings 9181-9519"
+    },
+    {
+      "rel": "root",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "preview": {
+      "href": "../../previews/seg_000016.png",
+      "type": "image/png",
+      "roles": [
+        "overview"
+      ]
+    },
+    "rms_flat": {
+      "href": "../../mosaics/rms_flat/seg_000016.png",
+      "type": "image/png",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "rms",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 74.25,
+      "roles": [
+        "visual"
+      ]
+    },
+    "rms_flat-grid": {
+      "href": "../../mosaics/rms_flat/seg_000016.npy",
+      "type": "application/octet-stream",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "rms",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 74.25,
+      "roles": [
+        "data"
+      ]
+    },
+    "mean_flat": {
+      "href": "../../mosaics/mean_flat/seg_000016.png",
+      "type": "image/png",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "mean",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 74.25,
+      "roles": [
+        "visual"
+      ]
+    },
+    "mean_flat-grid": {
+      "href": "../../mosaics/mean_flat/seg_000016.npy",
+      "type": "application/octet-stream",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "mean",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 74.25,
+      "roles": [
+        "data"
+      ]
+    },
+    "distance_flat": {
+      "href": "../../mosaics/distance_flat/seg_000016.png",
+      "type": "image/png",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "distance",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 74.25,
+      "roles": [
+        "visual"
+      ]
+    },
+    "distance_flat-grid": {
+      "href": "../../mosaics/distance_flat/seg_000016.npy",
+      "type": "application/octet-stream",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "distance",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 74.25,
+      "roles": [
+        "data"
+      ]
+    },
+    "max_flat": {
+      "href": "../../mosaics/max_flat/seg_000016.png",
+      "type": "image/png",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "max",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 74.25,
+      "roles": [
+        "visual"
+      ]
+    },
+    "max_flat-grid": {
+      "href": "../../mosaics/max_flat/seg_000016.npy",
+      "type": "application/octet-stream",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "max",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 74.25,
+      "roles": [
+        "data"
+      ]
+    },
+    "rms_none": {
+      "href": "../../mosaics/rms_none/seg_000016.png",
+      "type": "image/png",
+      "sss:slant_range_mode": "none",
+      "sss:fusion": "rms",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 74.25,
+      "roles": [
+        "visual"
+      ]
+    },
+    "rms_none-grid": {
+      "href": "../../mosaics/rms_none/seg_000016.npy",
+      "type": "application/octet-stream",
+      "sss:slant_range_mode": "none",
+      "sss:fusion": "rms",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 74.25,
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "NBP1001"
+}

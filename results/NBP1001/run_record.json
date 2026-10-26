@@ -1,0 +1,137 @@
+{
+  "pipeline_version": "1.1.0",
+  "started_utc": "2026-10-26T00:00:00+00:00",
+  "config": {
+    "segment": {
+      "target_length_m": 75.0,
+      "time_gap_s": 10.0,
+      "jump_m": 30.0,
+      "stall_eps_m": 0.02,
+      "stall_max_run": 400,
+      "max_pings": 2000,
+      "decimate_m": 2.0
+    },
+    "preview": {
+      "width": 400,
+      "height": 600
+    },
+    "stitch": {
+      "pixel_m": 0.25,
+      "fallback_range_m": 75.0,
+      "sample_stride": 2,
+      "target_max_pings": 180,
+      "max_raster": 9000
+    },
+    "variants": [
+      [
+        "rms_flat",
+        "flat",
+        "rms"
+      ],
+      [
+        "rms_none",
+        "none",
+        "rms"
+      ],
+      [
+        "mean_flat",
+        "flat",
+        "mean"
+      ],
+      [
+        "distance_flat",
+        "flat",
+        "distance"
+      ],
+      [
+        "max_flat",
+        "flat",
+        "max"
+      ]
+    ]
+  },
+  "dataset": {
+    "title": "Raw towed Sidescan Sonar Data (XTF format) from the Antarctic Larsen Ice Shelf acquired during the Nathaniel B. Palmer expedition NBP1001 (2010)",
+    "doi": "10.1594/IEDA/316265",
+    "cruise_id": "NBP1001",
+    "investigators": [
+      [
+        "Domack, Eugene",
+        "principalInvestigator"
+      ]
+    ],
+    "abstract": "Derived SSS products created with the sss_pipeline reference implementation from an MGDS-archived NBP1001 snippet.",
+    "keywords": [
+      "sidescan sonar",
+      "XTF",
+      "NBP1001",
+      "Larsen Ice Shelf"
+    ],
+    "contact_name": "Nitthanet Natthakunlanan",
+    "contact_email": "nitthanet.n68@rsu.ac.th"
+  },
+  "libraries": {
+    "pyxtf": "1.4.2",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "pyproj": "3.6.1",
+    "lxml": "6.0.2",
+    "pillow": "11.1.0",
+    "folium": "0.20.0"
+  },
+  "max_pings": null,
+  "ingestion": {
+    "source_file": "SS01 snip 2030 to 2045.XTF",
+    "source_bytes": 147395584,
+    "source_sha256": "e47341e712a9fa847c8570788f077f74c8c8c8668d59603b0db363e0e9e71cad",
+    "nav_units": 3,
+    "sonar_name": "SIS1625.exe",
+    "declared_sonar_channels": 5,
+    "exposed_sonar_info": 4,
+    "class": "repaired",
+    "repair": {
+      "action": "append in-memory copy of last sonar_info entry",
+      "entries_added": 1,
+      "first_packet_error": "IndexError: list index out of range"
+    },
+    "source_modified": false,
+    "checked_utc": "2026-10-26T00:00:00+00:00"
+  },
+  "parse": {
+    "utm_epsg": 32720,
+    "channel_pair": {
+      "port": 0,
+      "stbd": 1,
+      "freq_khz": [
+        100.0,
+        100.0
+      ],
+      "nadir_first": {
+        "port": false,
+        "stbd": true
+      }
+    },
+    "nav_units": 3,
+    "flat_bottom_height": "altitude above seabed, linearly interpolated where not recorded",
+    "altitude_interpolated_pings": 2
+  },
+  "outputs_sha256": {
+    "pings.csv": "6f016472d65e8cadc8ff096291b031f6ace978b8913bd92ba71c9f1d3df16d5f",
+    "sss_index.geojson": "d62e984eefa2324574d446e041da6537ab7c19eb63529a2d3fa4056cfae0a573",
+    "segment_preview_manifest.json": "ca1370a70fef3383e1c8867ade6b14f90a2f876543d7d22557324eff6acfed96",
+    "segment_mosaic_manifest.json": "d59137cd2568fe9411efa8b0d875cbf1bb46a9ff68ca43f34653d35227c84383",
+    "metadata/dataset_mgds.xml": "0ae5953929cae07d1642717cdc1cdba40edde1cc7ff6f9edf1a6889808582415",
+    "metadata/sss_extended.xml": "2ffdc2beccf353660c47fa9c2aedbce8b586db344ec7b371ac3db5fb4beebbea",
+    "metrics_summary.csv": "418908d388f89e898ba61972e5758793a9e17db736bd2e26b86d2a203870586b"
+  },
+  "products_tree_sha256": "15fa9f90d1221f1bec4975e2462cb69c2bfb1637912f91ed6354c50055bd2fde",
+  "timings_s": {
+    "1_preflight": 0.51,
+    "2_parse": 14.9,
+    "4_segment": 0.03,
+    "3_metadata": 0.01,
+    "5-7_products_metrics": 96.95,
+    "8_viewer": 2.01
+  },
+  "finished_utc": "2026-10-26T00:00:00+00:00"
+}

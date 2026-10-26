@@ -1,0 +1,19 @@
+The contents of the results/ directory are licensed under the
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License
+(CC BY-NC-SA 4.0): https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+They are derived from data made available by the Marine Geoscience Data System
+(MGDS) under CC BY-NC-SA 3.0 US:
+
+  - Raw towed sidescan sonar data (XTF format) acquired along the Chilean Inland
+    Passage Fjord during the Nathaniel B. Palmer expedition NBP0505 (2005).
+    J. Anderson et al. MGDS. doi:10.1594/IEDA/306159
+  - Raw towed sidescan sonar data (XTF format) from the Antarctic Larsen Ice Shelf
+    acquired during the Nathaniel B. Palmer expedition NBP1001 (2010).
+    E. Domack. MGDS. doi:10.1594/IEDA/316265
+
+When reusing these results, cite the original data sets and MGDS
+(www.marine-geo.org), in addition to the paper and this software.
+
+results/fuji/ contains F-UJI assessment reports of the public MGDS landing
+pages, produced with F-UJI 4.0.1 (metrics v0.5).

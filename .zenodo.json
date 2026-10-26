@@ -1,0 +1,41 @@
+{
+  "title": "sss_pipeline: provenance-linked, segment-indexed side-scan sonar data model (reference implementation)",
+  "upload_type": "software",
+  "version": "1.1.0",
+  "description": "Reference implementation of a provenance-linked, segment-level data model for side-scan sonar (XTF) data: compatibility-aware ingestion with recorded repair, ISO 19115/19139 and SSS companion metadata, acquisition-aware segment index (GeoJSON), preview strips, locally stitched product variants, descriptive metrics, and an interactive viewer. Includes run records and derived results for MGDS data sets NBP0505 (doi:10.1594/IEDA/306159) and NBP1001 (doi:10.1594/IEDA/316265). The Chonburi survey used in the paper is available from the corresponding author on request.",
+  "creators": [
+    {
+      "name": "Chaisiriprasert, Parkpoom",
+      "affiliation": "College of Digital Innovation Technology, Rangsit University, Thailand"
+    },
+    {
+      "name": "Natthakunlanan, Nitthanet",
+      "affiliation": "College of Digital Innovation Technology, Rangsit University, Thailand"
+    },
+    {
+      "name": "Yongsiriwit, Karn",
+      "affiliation": "College of Digital Innovation Technology, Rangsit University, Thailand"
+    }
+  ],
+  "license": "mit",
+  "keywords": [
+    "side-scan sonar",
+    "XTF",
+    "data provenance",
+    "GeoJSON",
+    "FAIR data",
+    "metadata"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.1594/IEDA/306159",
+      "relation": "isDerivedFrom",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1594/IEDA/316265",
+      "relation": "isDerivedFrom",
+      "scheme": "doi"
+    }
+  ]
+}

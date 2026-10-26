@@ -1,0 +1,271 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "seg_000009",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -73.73033333333333,
+        -46.34842666666667
+      ],
+      [
+        -73.73033666666667,
+        -46.34845166666667
+      ],
+      [
+        -73.73034166666666,
+        -46.34847833333333
+      ],
+      [
+        -73.73034166666666,
+        -46.348505
+      ],
+      [
+        -73.730345,
+        -46.348531666666666
+      ],
+      [
+        -73.73034833333334,
+        -46.34855833333334
+      ],
+      [
+        -73.73035333333333,
+        -46.34858666666667
+      ],
+      [
+        -73.73035666666667,
+        -46.348615
+      ],
+      [
+        -73.73036166666667,
+        -46.348643333333335
+      ],
+      [
+        -73.730365,
+        -46.34867166666667
+      ],
+      [
+        -73.73037,
+        -46.3487
+      ],
+      [
+        -73.73037333333333,
+        -46.348728333333334
+      ],
+      [
+        -73.73037666666667,
+        -46.34875666666667
+      ],
+      [
+        -73.73038,
+        -46.348785
+      ],
+      [
+        -73.73038333333334,
+        -46.34881333333333
+      ],
+      [
+        -73.73038666666666,
+        -46.348841666666665
+      ],
+      [
+        -73.73039333333334,
+        -46.34887166666667
+      ],
+      [
+        -73.73039833333333,
+        -46.3489
+      ],
+      [
+        -73.730405,
+        -46.34892833333333
+      ],
+      [
+        -73.73041,
+        -46.348956666666666
+      ],
+      [
+        -73.73041666666667,
+        -46.34898666666667
+      ],
+      [
+        -73.73042,
+        -46.349016666666664
+      ],
+      [
+        -73.73042666666667,
+        -46.349046666666666
+      ],
+      [
+        -73.73043166666666,
+        -46.34907666666667
+      ],
+      [
+        -73.73043833333334,
+        -46.349106666666664
+      ]
+    ]
+  },
+  "bbox": [
+    -73.73043833333334,
+    -46.349106666666664,
+    -73.73033333333333,
+    -46.34842666666667
+  ],
+  "properties": {
+    "sss:ping_start": 1995,
+    "sss:ping_end": 2222,
+    "sss:n_pings": 228,
+    "sss:length_m": 76.083,
+    "sss:source_sha256": "eff306153151a11908a91fdd669b0c4f22133892833f0b6abcd9c319d6d77c7d",
+    "sss:ingestion_class": "standard",
+    "start_datetime": "2005-07-01T05:06:40.190000Z",
+    "end_datetime": "2005-07-01T05:07:27.920000Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "derived_from",
+      "href": "../../pings.csv",
+      "type": "text/csv",
+      "title": "pings 1995-2222"
+    },
+    {
+      "rel": "root",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "preview": {
+      "href": "../../previews/seg_000009.png",
+      "type": "image/png",
+      "roles": [
+        "overview"
+      ]
+    },
+    "rms_flat": {
+      "href": "../../mosaics/rms_flat/seg_000009.png",
+      "type": "image/png",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "rms",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 149.7830352783203,
+      "roles": [
+        "visual"
+      ]
+    },
+    "rms_flat-grid": {
+      "href": "../../mosaics/rms_flat/seg_000009.npy",
+      "type": "application/octet-stream",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "rms",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 149.7830352783203,
+      "roles": [
+        "data"
+      ]
+    },
+    "mean_flat": {
+      "href": "../../mosaics/mean_flat/seg_000009.png",
+      "type": "image/png",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "mean",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 149.7830352783203,
+      "roles": [
+        "visual"
+      ]
+    },
+    "mean_flat-grid": {
+      "href": "../../mosaics/mean_flat/seg_000009.npy",
+      "type": "application/octet-stream",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "mean",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 149.7830352783203,
+      "roles": [
+        "data"
+      ]
+    },
+    "distance_flat": {
+      "href": "../../mosaics/distance_flat/seg_000009.png",
+      "type": "image/png",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "distance",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 149.7830352783203,
+      "roles": [
+        "visual"
+      ]
+    },
+    "distance_flat-grid": {
+      "href": "../../mosaics/distance_flat/seg_000009.npy",
+      "type": "application/octet-stream",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "distance",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 149.7830352783203,
+      "roles": [
+        "data"
+      ]
+    },
+    "max_flat": {
+      "href": "../../mosaics/max_flat/seg_000009.png",
+      "type": "image/png",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "max",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 149.7830352783203,
+      "roles": [
+        "visual"
+      ]
+    },
+    "max_flat-grid": {
+      "href": "../../mosaics/max_flat/seg_000009.npy",
+      "type": "application/octet-stream",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "max",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 149.7830352783203,
+      "roles": [
+        "data"
+      ]
+    },
+    "rms_none": {
+      "href": "../../mosaics/rms_none/seg_000009.png",
+      "type": "image/png",
+      "sss:slant_range_mode": "none",
+      "sss:fusion": "rms",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 149.7830352783203,
+      "roles": [
+        "visual"
+      ]
+    },
+    "rms_none-grid": {
+      "href": "../../mosaics/rms_none/seg_000009.npy",
+      "type": "application/octet-stream",
+      "sss:slant_range_mode": "none",
+      "sss:fusion": "rms",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 149.7830352783203,
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "NBP0505"
+}

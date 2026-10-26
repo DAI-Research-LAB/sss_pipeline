@@ -1,0 +1,12 @@
+# run outputs and source data are regenerated / downloaded, not committed
+runs/
+*.XTF
+*.xtf
+*.pyxtf_idx
+raw_arrays/
+mosaics/
+previews/
+*.npy
+__pycache__/
+*.pyc
+viewer/

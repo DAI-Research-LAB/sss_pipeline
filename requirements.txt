@@ -1,0 +1,11 @@
+# Versions used for the runs reported in the paper (Python 3.11)
+pyxtf==1.4.2
+numpy==1.26.4
+pandas==2.3.3
+pyproj==3.6.1
+lxml==6.0.2
+pillow==11.1.0
+folium==0.20.0
+pystac[validation]==1.15.2   # STAC export and validation
+# figures/ and paper_numbers.py montages
+matplotlib==3.10.6

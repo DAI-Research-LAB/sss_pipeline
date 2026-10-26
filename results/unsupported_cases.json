@@ -1,0 +1,29 @@
+{
+  "source": "NBP050501A.XTF",
+  "cases": [
+    {
+      "case": "truncated after file header",
+      "class": "unsupported",
+      "reason": "no sonar packets",
+      "bytes": 1088
+    },
+    {
+      "case": "invalid NavUnits code (7)",
+      "class": "unsupported",
+      "reason": "unknown NavUnits 7",
+      "bytes": 2097152
+    },
+    {
+      "case": "corrupted first packet header",
+      "class": "unsupported",
+      "reason": "RuntimeError: XTF packet does not start with the correct identifier (0xFACE).",
+      "bytes": 2097152
+    },
+    {
+      "case": "header only (no packets)",
+      "class": "unsupported",
+      "reason": "no sonar packets",
+      "bytes": 1024
+    }
+  ]
+}

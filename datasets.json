@@ -1,0 +1,47 @@
+{
+  "NBP0505": {
+    "title": "Raw towed Sidescan Sonar Data (XTF format) along the Chilean Inland Passage Fjord during the Nathaniel B. Palmer expedition NBP0505 (2005)",
+    "doi": "10.1594/IEDA/306159",
+    "cruise_id": "NBP0505",
+    "investigators": [
+      [
+        "Anderson, John",
+        "principalInvestigator"
+      ],
+      [
+        "Hallet, Bernard",
+        "coInvestigator"
+      ]
+    ],
+    "abstract": "Derived SSS ping-level products (CSV, segment index, previews, local stitched products) created with the sss_pipeline reference implementation from raw data collected during the NBP0505 expedition and archived at MGDS.",
+    "keywords": [
+      "sidescan sonar",
+      "EdgeTech 4200",
+      "XTF",
+      "NBP0505",
+      "Chilean fjords"
+    ],
+    "contact_name": "Nitthanet Natthakunlanan",
+    "contact_email": "nitthanet.n68@rsu.ac.th"
+  },
+  "NBP1001": {
+    "title": "Raw towed Sidescan Sonar Data (XTF format) from the Antarctic Larsen Ice Shelf acquired during the Nathaniel B. Palmer expedition NBP1001 (2010)",
+    "doi": "10.1594/IEDA/316265",
+    "cruise_id": "NBP1001",
+    "investigators": [
+      [
+        "Domack, Eugene",
+        "principalInvestigator"
+      ]
+    ],
+    "abstract": "Derived SSS products created with the sss_pipeline reference implementation from an MGDS-archived NBP1001 snippet.",
+    "keywords": [
+      "sidescan sonar",
+      "XTF",
+      "NBP1001",
+      "Larsen Ice Shelf"
+    ],
+    "contact_name": "Nitthanet Natthakunlanan",
+    "contact_email": "nitthanet.n68@rsu.ac.th"
+  }
+}

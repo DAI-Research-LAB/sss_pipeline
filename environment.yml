@@ -1,0 +1,16 @@
+name: sss_pipeline
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy=1.26.4
+  - pandas=2.3.3
+  - pyproj=3.6.1
+  - lxml=6.0.2
+  - pillow=11.1.0
+  - folium=0.20.0
+  - matplotlib=3.10.6
+  - pip
+  - pip:
+      - pyxtf==1.4.2
+      - pystac[validation]==1.15.2

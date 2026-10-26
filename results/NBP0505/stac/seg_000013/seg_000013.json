@@ -1,0 +1,271 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "seg_000013",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -73.73100666666667,
+        -46.351108333333336
+      ],
+      [
+        -73.731015,
+        -46.35113833333333
+      ],
+      [
+        -73.73102333333334,
+        -46.351166666666664
+      ],
+      [
+        -73.73103166666667,
+        -46.351195
+      ],
+      [
+        -73.73103666666667,
+        -46.35122333333333
+      ],
+      [
+        -73.73104666666667,
+        -46.35125166666667
+      ],
+      [
+        -73.73105166666667,
+        -46.351281666666665
+      ],
+      [
+        -73.73106,
+        -46.35131
+      ],
+      [
+        -73.731065,
+        -46.35133833333333
+      ],
+      [
+        -73.73107333333333,
+        -46.351366666666664
+      ],
+      [
+        -73.73108,
+        -46.351396666666666
+      ],
+      [
+        -73.73108833333333,
+        -46.351425
+      ],
+      [
+        -73.73109833333334,
+        -46.351456666666664
+      ],
+      [
+        -73.73110666666666,
+        -46.351485
+      ],
+      [
+        -73.731115,
+        -46.35151333333334
+      ],
+      [
+        -73.73112333333333,
+        -46.35154333333333
+      ],
+      [
+        -73.73113166666667,
+        -46.351571666666665
+      ],
+      [
+        -73.73113666666667,
+        -46.35160166666667
+      ],
+      [
+        -73.731145,
+        -46.35163
+      ],
+      [
+        -73.73115,
+        -46.35165833333333
+      ],
+      [
+        -73.73115833333334,
+        -46.351686666666666
+      ],
+      [
+        -73.731165,
+        -46.351713333333336
+      ],
+      [
+        -73.731175,
+        -46.35174333333333
+      ],
+      [
+        -73.73118166666667,
+        -46.35177
+      ],
+      [
+        -73.73118666666667,
+        -46.35178333333333
+      ]
+    ]
+  },
+  "bbox": [
+    -73.73118666666667,
+    -46.35178333333333,
+    -73.73100666666667,
+    -46.351108333333336
+  ],
+  "properties": {
+    "sss:ping_start": 2784,
+    "sss:ping_end": 2953,
+    "sss:n_pings": 170,
+    "sss:length_m": 76.399,
+    "sss:source_sha256": "eff306153151a11908a91fdd669b0c4f22133892833f0b6abcd9c319d6d77c7d",
+    "sss:ingestion_class": "standard",
+    "start_datetime": "2005-07-01T05:09:36.910000Z",
+    "end_datetime": "2005-07-01T05:10:23.720000Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "derived_from",
+      "href": "../../pings.csv",
+      "type": "text/csv",
+      "title": "pings 2784-2953"
+    },
+    {
+      "rel": "root",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "preview": {
+      "href": "../../previews/seg_000013.png",
+      "type": "image/png",
+      "roles": [
+        "overview"
+      ]
+    },
+    "rms_flat": {
+      "href": "../../mosaics/rms_flat/seg_000013.png",
+      "type": "image/png",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "rms",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 199.79136657714844,
+      "roles": [
+        "visual"
+      ]
+    },
+    "rms_flat-grid": {
+      "href": "../../mosaics/rms_flat/seg_000013.npy",
+      "type": "application/octet-stream",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "rms",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 199.79136657714844,
+      "roles": [
+        "data"
+      ]
+    },
+    "mean_flat": {
+      "href": "../../mosaics/mean_flat/seg_000013.png",
+      "type": "image/png",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "mean",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 199.79136657714844,
+      "roles": [
+        "visual"
+      ]
+    },
+    "mean_flat-grid": {
+      "href": "../../mosaics/mean_flat/seg_000013.npy",
+      "type": "application/octet-stream",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "mean",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 199.79136657714844,
+      "roles": [
+        "data"
+      ]
+    },
+    "distance_flat": {
+      "href": "../../mosaics/distance_flat/seg_000013.png",
+      "type": "image/png",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "distance",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 199.79136657714844,
+      "roles": [
+        "visual"
+      ]
+    },
+    "distance_flat-grid": {
+      "href": "../../mosaics/distance_flat/seg_000013.npy",
+      "type": "application/octet-stream",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "distance",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 199.79136657714844,
+      "roles": [
+        "data"
+      ]
+    },
+    "max_flat": {
+      "href": "../../mosaics/max_flat/seg_000013.png",
+      "type": "image/png",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "max",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 199.79136657714844,
+      "roles": [
+        "visual"
+      ]
+    },
+    "max_flat-grid": {
+      "href": "../../mosaics/max_flat/seg_000013.npy",
+      "type": "application/octet-stream",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "max",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 199.79136657714844,
+      "roles": [
+        "data"
+      ]
+    },
+    "rms_none": {
+      "href": "../../mosaics/rms_none/seg_000013.png",
+      "type": "image/png",
+      "sss:slant_range_mode": "none",
+      "sss:fusion": "rms",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 199.79136657714844,
+      "roles": [
+        "visual"
+      ]
+    },
+    "rms_none-grid": {
+      "href": "../../mosaics/rms_none/seg_000013.npy",
+      "type": "application/octet-stream",
+      "sss:slant_range_mode": "none",
+      "sss:fusion": "rms",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 199.79136657714844,
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "NBP0505"
+}

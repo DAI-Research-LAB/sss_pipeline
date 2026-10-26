@@ -1,0 +1,206 @@
+[
+  {
+    "segment_id": "seg_000000",
+    "ping_start": 0,
+    "ping_end": 568,
+    "source_sha256": "e47341e712a9fa847c8570788f077f74c8c8c8668d59603b0db363e0e9e71cad",
+    "product": "preview",
+    "file": "previews/seg_000000.png",
+    "params": {
+      "width": 400,
+      "height": 600
+    }
+  },
+  {
+    "segment_id": "seg_000001",
+    "ping_start": 569,
+    "ping_end": 1138,
+    "source_sha256": "e47341e712a9fa847c8570788f077f74c8c8c8668d59603b0db363e0e9e71cad",
+    "product": "preview",
+    "file": "previews/seg_000001.png",
+    "params": {
+      "width": 400,
+      "height": 600
+    }
+  },
+  {
+    "segment_id": "seg_000002",
+    "ping_start": 1139,
+    "ping_end": 1709,
+    "source_sha256": "e47341e712a9fa847c8570788f077f74c8c8c8668d59603b0db363e0e9e71cad",
+    "product": "preview",
+    "file": "previews/seg_000002.png",
+    "params": {
+      "width": 400,
+      "height": 600
+    }
+  },
+  {
+    "segment_id": "seg_000003",
+    "ping_start": 1710,
+    "ping_end": 2277,
+    "source_sha256": "e47341e712a9fa847c8570788f077f74c8c8c8668d59603b0db363e0e9e71cad",
+    "product": "preview",
+    "file": "previews/seg_000003.png",
+    "params": {
+      "width": 400,
+      "height": 600
+    }
+  },
+  {
+    "segment_id": "seg_000004",
+    "ping_start": 2278,
+    "ping_end": 2837,
+    "source_sha256": "e47341e712a9fa847c8570788f077f74c8c8c8668d59603b0db363e0e9e71cad",
+    "product": "preview",
+    "file": "previews/seg_000004.png",
+    "params": {
+      "width": 400,
+      "height": 600
+    }
+  },
+  {
+    "segment_id": "seg_000005",
+    "ping_start": 2838,
+    "ping_end": 3407,
+    "source_sha256": "e47341e712a9fa847c8570788f077f74c8c8c8668d59603b0db363e0e9e71cad",
+    "product": "preview",
+    "file": "previews/seg_000005.png",
+    "params": {
+      "width": 400,
+      "height": 600
+    }
+  },
+  {
+    "segment_id": "seg_000006",
+    "ping_start": 3408,
+    "ping_end": 3976,
+    "source_sha256": "e47341e712a9fa847c8570788f077f74c8c8c8668d59603b0db363e0e9e71cad",
+    "product": "preview",
+    "file": "previews/seg_000006.png",
+    "params": {
+      "width": 400,
+      "height": 600
+    }
+  },
+  {
+    "segment_id": "seg_000007",
+    "ping_start": 3977,
+    "ping_end": 4545,
+    "source_sha256": "e47341e712a9fa847c8570788f077f74c8c8c8668d59603b0db363e0e9e71cad",
+    "product": "preview",
+    "file": "previews/seg_000007.png",
+    "params": {
+      "width": 400,
+      "height": 600
+    }
+  },
+  {
+    "segment_id": "seg_000008",
+    "ping_start": 4546,
+    "ping_end": 5105,
+    "source_sha256": "e47341e712a9fa847c8570788f077f74c8c8c8668d59603b0db363e0e9e71cad",
+    "product": "preview",
+    "file": "previews/seg_000008.png",
+    "params": {
+      "width": 400,
+      "height": 600
+    }
+  },
+  {
+    "segment_id": "seg_000009",
+    "ping_start": 5106,
+    "ping_end": 5663,
+    "source_sha256": "e47341e712a9fa847c8570788f077f74c8c8c8668d59603b0db363e0e9e71cad",
+    "product": "preview",
+    "file": "previews/seg_000009.png",
+    "params": {
+      "width": 400,
+      "height": 600
+    }
+  },
+  {
+    "segment_id": "seg_000010",
+    "ping_start": 5664,
+    "ping_end": 6222,
+    "source_sha256": "e47341e712a9fa847c8570788f077f74c8c8c8668d59603b0db363e0e9e71cad",
+    "product": "preview",
+    "file": "previews/seg_000010.png",
+    "params": {
+      "width": 400,
+      "height": 600
+    }
+  },
+  {
+    "segment_id": "seg_000011",
+    "ping_start": 6223,
+    "ping_end": 6780,
+    "source_sha256": "e47341e712a9fa847c8570788f077f74c8c8c8668d59603b0db363e0e9e71cad",
+    "product": "preview",
+    "file": "previews/seg_000011.png",
+    "params": {
+      "width": 400,
+      "height": 600
+    }
+  },
+  {
+    "segment_id": "seg_000012",
+    "ping_start": 6781,
+    "ping_end": 7327,
+    "source_sha256": "e47341e712a9fa847c8570788f077f74c8c8c8668d59603b0db363e0e9e71cad",
+    "product": "preview",
+    "file": "previews/seg_000012.png",
+    "params": {
+      "width": 400,
+      "height": 600
+    }
+  },
+  {
+    "segment_id": "seg_000013",
+    "ping_start": 7328,
+    "ping_end": 7879,
+    "source_sha256": "e47341e712a9fa847c8570788f077f74c8c8c8668d59603b0db363e0e9e71cad",
+    "product": "preview",
+    "file": "previews/seg_000013.png",
+    "params": {
+      "width": 400,
+      "height": 600
+    }
+  },
+  {
+    "segment_id": "seg_000014",
+    "ping_start": 7880,
+    "ping_end": 8438,
+    "source_sha256": "e47341e712a9fa847c8570788f077f74c8c8c8668d59603b0db363e0e9e71cad",
+    "product": "preview",
+    "file": "previews/seg_000014.png",
+    "params": {
+      "width": 400,
+      "height": 600
+    }
+  },
+  {
+    "segment_id": "seg_000015",
+    "ping_start": 8439,
+    "ping_end": 9180,
+    "source_sha256": "e47341e712a9fa847c8570788f077f74c8c8c8668d59603b0db363e0e9e71cad",
+    "product": "preview",
+    "file": "previews/seg_000015.png",
+    "params": {
+      "width": 400,
+      "height": 600
+    }
+  },
+  {
+    "segment_id": "seg_000016",
+    "ping_start": 9181,
+    "ping_end": 9519,
+    "source_sha256": "e47341e712a9fa847c8570788f077f74c8c8c8668d59603b0db363e0e9e71cad",
+    "product": "preview",
+    "file": "previews/seg_000016.png",
+    "params": {
+      "width": 400,
+      "height": 600
+    }
+  }
+]

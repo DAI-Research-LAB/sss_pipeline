@@ -1,0 +1,283 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "seg_000054",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -73.738725,
+        -46.37076
+      ],
+      [
+        -73.73873666666667,
+        -46.37074
+      ],
+      [
+        -73.73874666666667,
+        -46.37072166666667
+      ],
+      [
+        -73.73875666666666,
+        -46.37070166666667
+      ],
+      [
+        -73.738765,
+        -46.37068333333333
+      ],
+      [
+        -73.73877333333333,
+        -46.370665
+      ],
+      [
+        -73.73878,
+        -46.370646666666666
+      ],
+      [
+        -73.73878666666667,
+        -46.370628333333336
+      ],
+      [
+        -73.73879333333333,
+        -46.37061
+      ],
+      [
+        -73.73879833333334,
+        -46.37059166666667
+      ],
+      [
+        -73.738805,
+        -46.37057333333333
+      ],
+      [
+        -73.73881166666666,
+        -46.370555
+      ],
+      [
+        -73.73882333333333,
+        -46.37052
+      ],
+      [
+        -73.73882833333333,
+        -46.37050166666667
+      ],
+      [
+        -73.738835,
+        -46.37048333333333
+      ],
+      [
+        -73.73884333333334,
+        -46.37045
+      ],
+      [
+        -73.73884833333334,
+        -46.37043166666667
+      ],
+      [
+        -73.73885333333334,
+        -46.370398333333334
+      ],
+      [
+        -73.73885666666666,
+        -46.370365
+      ],
+      [
+        -73.73886,
+        -46.370333333333335
+      ],
+      [
+        -73.738865,
+        -46.3703
+      ],
+      [
+        -73.73886833333333,
+        -46.370266666666666
+      ],
+      [
+        -73.73887166666667,
+        -46.37023333333333
+      ],
+      [
+        -73.738875,
+        -46.37020166666667
+      ],
+      [
+        -73.738875,
+        -46.37016833333333
+      ],
+      [
+        -73.738875,
+        -46.37013666666667
+      ],
+      [
+        -73.73887333333333,
+        -46.37010333333333
+      ],
+      [
+        -73.73887166666667,
+        -46.370088333333335
+      ]
+    ]
+  },
+  "bbox": [
+    -73.738875,
+    -46.37076,
+    -73.738725,
+    -46.370088333333335
+  ],
+  "properties": {
+    "sss:ping_start": 11688,
+    "sss:ping_end": 11958,
+    "sss:n_pings": 271,
+    "sss:length_m": 76.05,
+    "sss:source_sha256": "eff306153151a11908a91fdd669b0c4f22133892833f0b6abcd9c319d6d77c7d",
+    "sss:ingestion_class": "standard",
+    "start_datetime": "2005-07-01T05:39:35.950000Z",
+    "end_datetime": "2005-07-01T05:40:14.300000Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "derived_from",
+      "href": "../../pings.csv",
+      "type": "text/csv",
+      "title": "pings 11688-11958"
+    },
+    {
+      "rel": "root",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "preview": {
+      "href": "../../previews/seg_000054.png",
+      "type": "image/png",
+      "roles": [
+        "overview"
+      ]
+    },
+    "rms_flat": {
+      "href": "../../mosaics/rms_flat/seg_000054.png",
+      "type": "image/png",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "rms",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 99.80928039550781,
+      "roles": [
+        "visual"
+      ]
+    },
+    "rms_flat-grid": {
+      "href": "../../mosaics/rms_flat/seg_000054.npy",
+      "type": "application/octet-stream",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "rms",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 99.80928039550781,
+      "roles": [
+        "data"
+      ]
+    },
+    "mean_flat": {
+      "href": "../../mosaics/mean_flat/seg_000054.png",
+      "type": "image/png",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "mean",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 99.80928039550781,
+      "roles": [
+        "visual"
+      ]
+    },
+    "mean_flat-grid": {
+      "href": "../../mosaics/mean_flat/seg_000054.npy",
+      "type": "application/octet-stream",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "mean",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 99.80928039550781,
+      "roles": [
+        "data"
+      ]
+    },
+    "distance_flat": {
+      "href": "../../mosaics/distance_flat/seg_000054.png",
+      "type": "image/png",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "distance",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 99.80928039550781,
+      "roles": [
+        "visual"
+      ]
+    },
+    "distance_flat-grid": {
+      "href": "../../mosaics/distance_flat/seg_000054.npy",
+      "type": "application/octet-stream",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "distance",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 99.80928039550781,
+      "roles": [
+        "data"
+      ]
+    },
+    "max_flat": {
+      "href": "../../mosaics/max_flat/seg_000054.png",
+      "type": "image/png",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "max",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 99.80928039550781,
+      "roles": [
+        "visual"
+      ]
+    },
+    "max_flat-grid": {
+      "href": "../../mosaics/max_flat/seg_000054.npy",
+      "type": "application/octet-stream",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "max",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 99.80928039550781,
+      "roles": [
+        "data"
+      ]
+    },
+    "rms_none": {
+      "href": "../../mosaics/rms_none/seg_000054.png",
+      "type": "image/png",
+      "sss:slant_range_mode": "none",
+      "sss:fusion": "rms",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 99.80928039550781,
+      "roles": [
+        "visual"
+      ]
+    },
+    "rms_none-grid": {
+      "href": "../../mosaics/rms_none/seg_000054.npy",
+      "type": "application/octet-stream",
+      "sss:slant_range_mode": "none",
+      "sss:fusion": "rms",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 99.80928039550781,
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "NBP0505"
+}

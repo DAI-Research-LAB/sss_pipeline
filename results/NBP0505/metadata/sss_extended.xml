@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:sss="https://example.org/sss">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>NBP0505_SSS_2005-07-01_2005-07-01_SSS_EXT</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:parentIdentifier>
+    <gco:CharacterString>NBP0505_SSS_2005-07-01_2005-07-01</gco:CharacterString>
+  </gmd:parentIdentifier>
+  <gmd:dateStamp>
+    <gco:DateTime>2026-10-26T00:00:00+00:00</gco:DateTime>
+  </gmd:dateStamp>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>Nitthanet Natthakunlanan</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode">processor</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:abstract>
+        <gco:CharacterString>Extended SSS ping-level metadata derived from DOI 10.1594/IEDA/306159</gco:CharacterString>
+      </gmd:abstract>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:contentInfo>
+    <sss:SSS_ExtendedContent>
+      <sss:PingSummary>
+        <sss:numberOfPings>17104</sss:numberOfPings>
+        <sss:startTime>2005-07-01 04:59:40.200000</sss:startTime>
+        <sss:endTime>2005-07-01 05:52:18.360000</sss:endTime>
+        <sss:depthMin>3.2199459075927734</sss:depthMin>
+        <sss:depthMax>23.719879150390625</sss:depthMax>
+        <sss:altitudeMin>0.0974700003862381</sss:altitudeMin>
+        <sss:altitudeMax>136.1859130859375</sss:altitudeMax>
+        <sss:speedMean>3.7560804330293434</sss:speedMean>
+      </sss:PingSummary>
+      <sss:PingGeometry>
+        <sss:latMin>-46.374028333333335</sss:latMin>
+        <sss:latMax>-46.34244666666667</sss:latMax>
+        <sss:lonMin>-73.73981666666667</sss:lonMin>
+        <sss:lonMax>-73.72861666666667</sss:lonMax>
+        <sss:navUnits>3</sss:navUnits>
+        <sss:projectedCRS>EPSG:32718</sss:projectedCRS>
+      </sss:PingGeometry>
+      <sss:ChannelRadiometricSummaryList>
+        <sss:ChannelSummary>
+          <sss:channel>0</sss:channel>
+          <sss:max>32767.0</sss:max>
+          <sss:mean>3708.3829627755204</sss:mean>
+          <sss:std>3311.2440081870204</sss:std>
+          <sss:meanSamples>1024.0</sss:meanSamples>
+        </sss:ChannelSummary>
+        <sss:ChannelSummary>
+          <sss:channel>1</sss:channel>
+          <sss:max>32767.0</sss:max>
+          <sss:mean>3455.7551292369476</sss:mean>
+          <sss:std>3130.674644727845</sss:std>
+          <sss:meanSamples>1024.0</sss:meanSamples>
+        </sss:ChannelSummary>
+        <sss:ChannelSummary>
+          <sss:channel>2</sss:channel>
+          <sss:max>32767.0</sss:max>
+          <sss:mean>3231.069208671491</sss:mean>
+          <sss:std>3909.5506407824764</sss:std>
+          <sss:meanSamples>1024.0</sss:meanSamples>
+        </sss:ChannelSummary>
+        <sss:ChannelSummary>
+          <sss:channel>3</sss:channel>
+          <sss:max>32767.0</sss:max>
+          <sss:mean>2615.4326119918037</sss:mean>
+          <sss:std>3274.0911259369923</sss:std>
+          <sss:meanSamples>1024.0</sss:meanSamples>
+        </sss:ChannelSummary>
+      </sss:ChannelRadiometricSummaryList>
+      <sss:ProcessingLineage>
+        <sss:pipelineVersion>1.1.0</sss:pipelineVersion>
+        <sss:sourceFile>NBP050501A.XTF</sss:sourceFile>
+        <sss:sourceSHA256>eff306153151a11908a91fdd669b0c4f22133892833f0b6abcd9c319d6d77c7d</sss:sourceSHA256>
+        <sss:ingestionClass>standard</sss:ingestionClass>
+        <sss:ingestionRepair>none</sss:ingestionRepair>
+        <sss:productChannelPair>{"port": 0, "stbd": 1, "freq_khz": [120.0, 120.0], "nadir_first": {"port": false, "stbd": true}}</sss:productChannelPair>
+        <sss:flatBottomHeight>altitude above seabed, linearly interpolated where not recorded</sss:flatBottomHeight>
+        <sss:segmentation>{"n_segments": 78, "parameters": {"target_length_m": 75.0, "time_gap_s": 10.0, "jump_m": 30.0, "stall_eps_m": 0.02, "stall_max_run": 400, "max_pings": 2000, "decimate_m": 2.0}}</sss:segmentation>
+      </sss:ProcessingLineage>
+    </sss:SSS_ExtendedContent>
+  </gmd:contentInfo>
+</gmd:MD_Metadata>

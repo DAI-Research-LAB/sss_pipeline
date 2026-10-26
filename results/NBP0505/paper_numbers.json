@@ -1,0 +1,294 @@
+{
+  "pings": 17104,
+  "segments": 78,
+  "ingestion": {
+    "source_file": "NBP050501A.XTF",
+    "source_bytes": 148874752,
+    "source_sha256": "eff306153151a11908a91fdd669b0c4f22133892833f0b6abcd9c319d6d77c7d",
+    "nav_units": 3,
+    "sonar_name": "Edgetech_4200.E",
+    "declared_sonar_channels": 4,
+    "exposed_sonar_info": 4,
+    "class": "standard",
+    "repair": null,
+    "source_modified": false,
+    "checked_utc": "2026-10-26T00:00:00+00:00"
+  },
+  "parse": {
+    "utm_epsg": 32718,
+    "channel_pair": {
+      "port": 0,
+      "stbd": 1,
+      "freq_khz": [
+        120.0,
+        120.0
+      ],
+      "nadir_first": {
+        "port": false,
+        "stbd": true
+      }
+    },
+    "nav_units": 3,
+    "flat_bottom_height": "altitude above seabed, linearly interpolated where not recorded",
+    "altitude_interpolated_pings": 1281
+  },
+  "time_start": "2005-07-01 04:59:40.200",
+  "time_end": "2005-07-01 05:52:18.360",
+  "lat_range": [
+    -46.374028333333335,
+    -46.34244666666667
+  ],
+  "lon_range": [
+    -73.73981666666667,
+    -73.72861666666667
+  ],
+  "depth_range": [
+    3.219945907592773,
+    23.719879150390625
+  ],
+  "altitude_recorded": 15823,
+  "slant_range_port": [
+    99.8,
+    149.8,
+    199.8
+  ],
+  "track_length_m": 5914.1624670866895,
+  "sensitivity": [
+    {
+      "setting": "Baseline",
+      "target_length_m": 75.0,
+      "time_gap_s": 10.0,
+      "jump_m": 30.0,
+      "segments": 78,
+      "mean_length_m": 75.82259573188063,
+      "median_length_m": 76.09542882287045,
+      "mean_pings": 219.28205128205127,
+      "min_pings": 152,
+      "max_pings": 363
+    },
+    {
+      "setting": "Shorter segments",
+      "target_length_m": 50.0,
+      "time_gap_s": 10.0,
+      "jump_m": 30.0,
+      "segments": 116,
+      "mean_length_m": 50.984159199023175,
+      "median_length_m": 50.94563302646791,
+      "mean_pings": 147.44827586206895,
+      "min_pings": 101,
+      "max_pings": 242
+    },
+    {
+      "setting": "Longer segments",
+      "target_length_m": 100.0,
+      "time_gap_s": 10.0,
+      "jump_m": 30.0,
+      "segments": 59,
+      "mean_length_m": 100.24004181502863,
+      "median_length_m": 100.82653466353534,
+      "mean_pings": 289.89830508474574,
+      "min_pings": 174,
+      "max_pings": 476
+    },
+    {
+      "setting": "Stricter time gap",
+      "target_length_m": 75.0,
+      "time_gap_s": 5.0,
+      "jump_m": 30.0,
+      "segments": 78,
+      "mean_length_m": 75.82259573188063,
+      "median_length_m": 76.09542882287045,
+      "mean_pings": 219.28205128205127,
+      "min_pings": 152,
+      "max_pings": 363
+    },
+    {
+      "setting": "Looser time gap",
+      "target_length_m": 75.0,
+      "time_gap_s": 20.0,
+      "jump_m": 30.0,
+      "segments": 78,
+      "mean_length_m": 75.82259573188063,
+      "median_length_m": 76.09542882287045,
+      "mean_pings": 219.28205128205127,
+      "min_pings": 152,
+      "max_pings": 363
+    },
+    {
+      "setting": "Stricter jump",
+      "target_length_m": 75.0,
+      "time_gap_s": 10.0,
+      "jump_m": 15.0,
+      "segments": 78,
+      "mean_length_m": 75.82259573188063,
+      "median_length_m": 76.09542882287045,
+      "mean_pings": 219.28205128205127,
+      "min_pings": 152,
+      "max_pings": 363
+    },
+    {
+      "setting": "Looser jump",
+      "target_length_m": 75.0,
+      "time_gap_s": 10.0,
+      "jump_m": 60.0,
+      "segments": 78,
+      "mean_length_m": 75.82259573188063,
+      "median_length_m": 76.09542882287045,
+      "mean_pings": 219.28205128205127,
+      "min_pings": 152,
+      "max_pings": 363
+    }
+  ],
+  "lineage": {
+    "features": 79,
+    "segments": 78,
+    "preview_entries": 78,
+    "preview_match": 78,
+    "variants": {
+      "rms_flat": [
+        78,
+        78
+      ],
+      "mean_flat": [
+        78,
+        78
+      ],
+      "distance_flat": [
+        78,
+        78
+      ],
+      "max_flat": [
+        78,
+        78
+      ],
+      "rms_none": [
+        78,
+        78
+      ]
+    },
+    "raw_links": [
+      17104,
+      17104
+    ],
+    "segment_ping_coverage": 17104
+  },
+  "metrics": [
+    {
+      "variant": "preview",
+      "entropy": 7.05904307150329,
+      "contrast_std": 50.58811028018356,
+      "dynamic_range": 195.06410256410257,
+      "average_gradient": 8.57601943141386,
+      "spatial_frequency": 17.967937424849094,
+      "seam_proxy": 12.703529601100335,
+      "coverage": NaN,
+      "overlap_ratio": NaN,
+      "mean_overlap_count": NaN
+    },
+    {
+      "variant": "rms_flat",
+      "entropy": 6.0782901006080765,
+      "contrast_std": 3663.591829140069,
+      "dynamic_range": 14281.61388729436,
+      "average_gradient": 1095.8201358883769,
+      "spatial_frequency": 2665.1989311502016,
+      "seam_proxy": 1885.176084164861,
+      "coverage": 0.9772942071445618,
+      "overlap_ratio": 0.3484205247677873,
+      "mean_overlap_count": 3.3305381900306927
+    },
+    {
+      "variant": "mean_flat",
+      "entropy": 6.042335228580007,
+      "contrast_std": 3573.598620361874,
+      "dynamic_range": 13908.30788461538,
+      "average_gradient": 1062.1816599687372,
+      "spatial_frequency": 2595.4177588731213,
+      "seam_proxy": 1835.8361975150904,
+      "coverage": 0.9772942071445618,
+      "overlap_ratio": 0.3484205247677873,
+      "mean_overlap_count": 3.3305381900306927
+    },
+    {
+      "variant": "distance_flat",
+      "entropy": 6.043558275876225,
+      "contrast_std": 3576.533344449032,
+      "dynamic_range": 13917.719231426943,
+      "average_gradient": 1063.4332671789366,
+      "spatial_frequency": 2597.60354775167,
+      "seam_proxy": 1837.3813213909743,
+      "coverage": 0.9772942071445618,
+      "overlap_ratio": 0.3484205247677873,
+      "mean_overlap_count": 3.3305381900306927
+    },
+    {
+      "variant": "max_flat",
+      "entropy": 6.125876837036862,
+      "contrast_std": 4169.133047650879,
+      "dynamic_range": 16474.18641025641,
+      "average_gradient": 1354.362494251563,
+      "spatial_frequency": 3342.9423928606197,
+      "seam_proxy": 2364.118378815112,
+      "coverage": 0.9772942071445618,
+      "overlap_ratio": 0.3484205247677873,
+      "mean_overlap_count": 3.3305381900306927
+    },
+    {
+      "variant": "rms_none",
+      "entropy": 6.041242390038318,
+      "contrast_std": 3715.636271431496,
+      "dynamic_range": 14421.096032100051,
+      "average_gradient": 1097.2602207027874,
+      "spatial_frequency": 2675.4555836313443,
+      "seam_proxy": 1892.4477999739308,
+      "coverage": 0.9951614573338172,
+      "overlap_ratio": 0.2622541087034526,
+      "mean_overlap_count": 3.5527130892184333
+    }
+  ],
+  "xml_paths": {
+    "dataset_mgds.xml": 77,
+    "sss_extended.xml": 51
+  },
+  "stitch_geometry": {
+    "pixel_m": 0.25,
+    "fallback_range_m": 75.0,
+    "sample_stride": 2,
+    "target_max_pings": 180,
+    "max_raster": 9000,
+    "slant_range_mode": "flat",
+    "fusion": "rms",
+    "range_m": 149.7830352783203,
+    "pings_used": 180,
+    "raster": [
+      1199,
+      305
+    ]
+  },
+  "segment_examples": {
+    "seg_000000": {
+      "ping_start": 0,
+      "ping_end": 222,
+      "n_pings": 223,
+      "time_start": "2005-07-01 04:59:40.200000",
+      "time_end": "2005-07-01 05:00:27.010000",
+      "length_m": 76.109
+    },
+    "seg_000039": {
+      "ping_start": 7238,
+      "ping_end": 7593,
+      "n_pings": 356,
+      "time_start": "2005-07-01 05:29:10",
+      "time_end": "2005-07-01 05:29:59.930000",
+      "length_m": 75.026
+    },
+    "seg_000077": {
+      "ping_start": 16930,
+      "ping_end": 17103,
+      "n_pings": 174,
+      "time_start": "2005-07-01 05:51:54.020000",
+      "time_end": "2005-07-01 05:52:18.360000",
+      "length_m": 59.527
+    }
+  }
+}

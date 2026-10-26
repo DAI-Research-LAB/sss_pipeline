@@ -1,0 +1,287 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "seg_000013",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -62.92218808333333,
+        -64.65306765
+      ],
+      [
+        -62.922219633333334,
+        -64.6530885
+      ],
+      [
+        -62.9222515,
+        -64.65310935
+      ],
+      [
+        -62.92228286666667,
+        -64.65313015
+      ],
+      [
+        -62.9223143,
+        -64.6531509
+      ],
+      [
+        -62.92234561666667,
+        -64.65317171666666
+      ],
+      [
+        -62.922377366666666,
+        -64.65319241666667
+      ],
+      [
+        -62.922408733333334,
+        -64.65321325
+      ],
+      [
+        -62.922440116666664,
+        -64.65323408333333
+      ],
+      [
+        -62.922471466666664,
+        -64.6532548
+      ],
+      [
+        -62.92250285,
+        -64.65327565
+      ],
+      [
+        -62.92253431666666,
+        -64.6532964
+      ],
+      [
+        -62.92256575,
+        -64.65331703333334
+      ],
+      [
+        -62.92259705,
+        -64.65333773333333
+      ],
+      [
+        -62.92262843333334,
+        -64.65335856666667
+      ],
+      [
+        -62.92266035,
+        -64.6533795
+      ],
+      [
+        -62.922691916666665,
+        -64.65340038333333
+      ],
+      [
+        -62.922723033333334,
+        -64.65342106666667
+      ],
+      [
+        -62.922754383333334,
+        -64.65344163333333
+      ],
+      [
+        -62.9227857,
+        -64.65346225
+      ],
+      [
+        -62.922816983333334,
+        -64.65348305
+      ],
+      [
+        -62.92284823333333,
+        -64.653504
+      ],
+      [
+        -62.92287975,
+        -64.65352468333333
+      ],
+      [
+        -62.92291121666667,
+        -64.6535453
+      ],
+      [
+        -62.922942766666665,
+        -64.65356586666667
+      ],
+      [
+        -62.9229737,
+        -64.65358655
+      ],
+      [
+        -62.92300395,
+        -64.65360723333333
+      ],
+      [
+        -62.923034666666666,
+        -64.65362793333334
+      ],
+      [
+        -62.92305031666667,
+        -64.6536382
+      ]
+    ]
+  },
+  "bbox": [
+    -62.92305031666667,
+    -64.6536382,
+    -62.92218808333333,
+    -64.65306765
+  ],
+  "properties": {
+    "sss:ping_start": 7328,
+    "sss:ping_end": 7879,
+    "sss:n_pings": 552,
+    "sss:length_m": 75.758,
+    "sss:source_sha256": "e47341e712a9fa847c8570788f077f74c8c8c8668d59603b0db363e0e9e71cad",
+    "sss:ingestion_class": "repaired",
+    "start_datetime": "2010-01-18T20:42:18.950000Z",
+    "end_datetime": "2010-01-18T20:43:13.920000Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "derived_from",
+      "href": "../../pings.csv",
+      "type": "text/csv",
+      "title": "pings 7328-7879"
+    },
+    {
+      "rel": "root",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "preview": {
+      "href": "../../previews/seg_000013.png",
+      "type": "image/png",
+      "roles": [
+        "overview"
+      ]
+    },
+    "rms_flat": {
+      "href": "../../mosaics/rms_flat/seg_000013.png",
+      "type": "image/png",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "rms",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 74.25,
+      "roles": [
+        "visual"
+      ]
+    },
+    "rms_flat-grid": {
+      "href": "../../mosaics/rms_flat/seg_000013.npy",
+      "type": "application/octet-stream",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "rms",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 74.25,
+      "roles": [
+        "data"
+      ]
+    },
+    "mean_flat": {
+      "href": "../../mosaics/mean_flat/seg_000013.png",
+      "type": "image/png",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "mean",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 74.25,
+      "roles": [
+        "visual"
+      ]
+    },
+    "mean_flat-grid": {
+      "href": "../../mosaics/mean_flat/seg_000013.npy",
+      "type": "application/octet-stream",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "mean",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 74.25,
+      "roles": [
+        "data"
+      ]
+    },
+    "distance_flat": {
+      "href": "../../mosaics/distance_flat/seg_000013.png",
+      "type": "image/png",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "distance",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 74.25,
+      "roles": [
+        "visual"
+      ]
+    },
+    "distance_flat-grid": {
+      "href": "../../mosaics/distance_flat/seg_000013.npy",
+      "type": "application/octet-stream",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "distance",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 74.25,
+      "roles": [
+        "data"
+      ]
+    },
+    "max_flat": {
+      "href": "../../mosaics/max_flat/seg_000013.png",
+      "type": "image/png",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "max",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 74.25,
+      "roles": [
+        "visual"
+      ]
+    },
+    "max_flat-grid": {
+      "href": "../../mosaics/max_flat/seg_000013.npy",
+      "type": "application/octet-stream",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "max",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 74.25,
+      "roles": [
+        "data"
+      ]
+    },
+    "rms_none": {
+      "href": "../../mosaics/rms_none/seg_000013.png",
+      "type": "image/png",
+      "sss:slant_range_mode": "none",
+      "sss:fusion": "rms",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 74.25,
+      "roles": [
+        "visual"
+      ]
+    },
+    "rms_none-grid": {
+      "href": "../../mosaics/rms_none/seg_000013.npy",
+      "type": "application/octet-stream",
+      "sss:slant_range_mode": "none",
+      "sss:fusion": "rms",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 74.25,
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "NBP1001"
+}

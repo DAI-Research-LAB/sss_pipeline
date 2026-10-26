@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it and the accompanying paper."
+title: "sss_pipeline: provenance-linked, segment-indexed side-scan sonar data model (reference implementation)"
+version: 1.1.0
+date-released: "2026-10-26"
+license: MIT
+repository-code: "https://github.com/KarnYong/sss_pipeline"
+authors:
+  - family-names: "Chaisiriprasert"
+    given-names: "Parkpoom"
+    affiliation: "College of Digital Innovation Technology, Rangsit University, Thailand"
+  - family-names: "Natthakunlanan"
+    given-names: "Nitthanet"
+    affiliation: "College of Digital Innovation Technology, Rangsit University, Thailand"
+  - family-names: "Yongsiriwit"
+    given-names: "Karn"
+    affiliation: "College of Digital Innovation Technology, Rangsit University, Thailand"
+keywords:
+  - side-scan sonar
+  - XTF
+  - data provenance
+  - GeoJSON
+  - FAIR data
+preferred-citation:
+  type: article
+  title: "A Provenance-Linked, Segment-Indexed Data Model for Analysis-Ready Side-Scan Sonar Data"
+  journal: "IEEE Access"
+  status: submitted
+  authors:
+    - family-names: "Chaisiriprasert"
+      given-names: "Parkpoom"
+    - family-names: "Natthakunlanan"
+      given-names: "Nitthanet"
+    - family-names: "Yongsiriwit"
+      given-names: "Karn"

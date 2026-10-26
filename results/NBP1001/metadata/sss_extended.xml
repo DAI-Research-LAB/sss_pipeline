@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:sss="https://example.org/sss">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>NBP1001_SSS_2010-01-18_2010-01-18_SSS_EXT</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:parentIdentifier>
+    <gco:CharacterString>NBP1001_SSS_2010-01-18_2010-01-18</gco:CharacterString>
+  </gmd:parentIdentifier>
+  <gmd:dateStamp>
+    <gco:DateTime>2026-10-26T00:00:00+00:00</gco:DateTime>
+  </gmd:dateStamp>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>Nitthanet Natthakunlanan</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode">processor</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:abstract>
+        <gco:CharacterString>Extended SSS ping-level metadata derived from DOI 10.1594/IEDA/316265</gco:CharacterString>
+      </gmd:abstract>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:contentInfo>
+    <sss:SSS_ExtendedContent>
+      <sss:PingSummary>
+        <sss:numberOfPings>9520</sss:numberOfPings>
+        <sss:startTime>2010-01-18 20:30:05.120000</sss:startTime>
+        <sss:endTime>2010-01-18 20:45:30.090000</sss:endTime>
+        <sss:depthMin>0.0</sss:depthMin>
+        <sss:depthMax>0.0</sss:depthMax>
+        <sss:altitudeMin>6.04248046875</sss:altitudeMin>
+        <sss:altitudeMax>45.77783203125</sss:altitudeMax>
+        <sss:speedMean>2.629296166080387</sss:speedMean>
+      </sss:PingSummary>
+      <sss:PingGeometry>
+        <sss:latMin>-64.65502125</sss:latMin>
+        <sss:latMax>-64.64625733333334</sss:latMax>
+        <sss:lonMin>-62.92517878333334</sss:lonMin>
+        <sss:lonMax>-62.90921315</sss:lonMax>
+        <sss:navUnits>3</sss:navUnits>
+        <sss:projectedCRS>EPSG:32720</sss:projectedCRS>
+      </sss:PingGeometry>
+      <sss:ChannelRadiometricSummaryList>
+        <sss:ChannelSummary>
+          <sss:channel>0</sss:channel>
+          <sss:max>16270.0</sss:max>
+          <sss:mean>337.6056974352241</sss:mean>
+          <sss:std>406.8202826048891</sss:std>
+          <sss:meanSamples>1490.6621848739496</sss:meanSamples>
+        </sss:ChannelSummary>
+        <sss:ChannelSummary>
+          <sss:channel>1</sss:channel>
+          <sss:max>65535.0</sss:max>
+          <sss:mean>626.6280386959471</sss:mean>
+          <sss:std>832.0222837099972</sss:std>
+          <sss:meanSamples>1490.6621848739496</sss:meanSamples>
+        </sss:ChannelSummary>
+        <sss:ChannelSummary>
+          <sss:channel>2</sss:channel>
+          <sss:max>65535.0</sss:max>
+          <sss:mean>793.0380109514508</sss:mean>
+          <sss:std>993.2505261771973</sss:std>
+          <sss:meanSamples>1490.6621848739496</sss:meanSamples>
+        </sss:ChannelSummary>
+        <sss:ChannelSummary>
+          <sss:channel>3</sss:channel>
+          <sss:max>65535.0</sss:max>
+          <sss:mean>635.3549732197566</sss:mean>
+          <sss:std>814.1168741517695</sss:std>
+          <sss:meanSamples>1490.6621848739496</sss:meanSamples>
+        </sss:ChannelSummary>
+        <sss:ChannelSummary>
+          <sss:channel>4</sss:channel>
+          <sss:max>18575.0</sss:max>
+          <sss:mean>322.40977557526924</sss:mean>
+          <sss:std>1434.1273209123783</sss:std>
+          <sss:meanSamples>1490.6621848739496</sss:meanSamples>
+        </sss:ChannelSummary>
+      </sss:ChannelRadiometricSummaryList>
+      <sss:ProcessingLineage>
+        <sss:pipelineVersion>1.1.0</sss:pipelineVersion>
+        <sss:sourceFile>SS01 snip 2030 to 2045.XTF</sss:sourceFile>
+        <sss:sourceSHA256>e47341e712a9fa847c8570788f077f74c8c8c8668d59603b0db363e0e9e71cad</sss:sourceSHA256>
+        <sss:ingestionClass>repaired</sss:ingestionClass>
+        <sss:ingestionRepair>{"action": "append in-memory copy of last sonar_info entry", "entries_added": 1, "first_packet_error": "IndexError: list index out of range"}</sss:ingestionRepair>
+        <sss:productChannelPair>{"port": 0, "stbd": 1, "freq_khz": [100.0, 100.0], "nadir_first": {"port": false, "stbd": true}}</sss:productChannelPair>
+        <sss:flatBottomHeight>altitude above seabed, linearly interpolated where not recorded</sss:flatBottomHeight>
+        <sss:segmentation>{"n_segments": 17, "parameters": {"target_length_m": 75.0, "time_gap_s": 10.0, "jump_m": 30.0, "stall_eps_m": 0.02, "stall_max_run": 400, "max_pings": 2000, "decimate_m": 2.0}}</sss:segmentation>
+      </sss:ProcessingLineage>
+    </sss:SSS_ExtendedContent>
+  </gmd:contentInfo>
+</gmd:MD_Metadata>

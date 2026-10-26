@@ -1,0 +1,11 @@
+{
+  "collection": "NBP0505",
+  "items": 78,
+  "validated_items": 78,
+  "collection_schemas": [
+    "https://schemas.stacspec.org/v1.1.0/collection-spec/json-schema/collection.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "stac_version": "1.1.0",
+  "pystac": "1.15.2"
+}

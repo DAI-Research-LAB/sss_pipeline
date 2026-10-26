@@ -1,0 +1,17 @@
+{
+  "source_file": "SS01 snip 2030 to 2045.XTF",
+  "source_bytes": 147395584,
+  "source_sha256": "e47341e712a9fa847c8570788f077f74c8c8c8668d59603b0db363e0e9e71cad",
+  "nav_units": 3,
+  "sonar_name": "SIS1625.exe",
+  "declared_sonar_channels": 5,
+  "exposed_sonar_info": 4,
+  "class": "repaired",
+  "repair": {
+    "action": "append in-memory copy of last sonar_info entry",
+    "entries_added": 1,
+    "first_packet_error": "IndexError: list index out of range"
+  },
+  "source_modified": false,
+  "checked_utc": "2026-10-26T00:00:00+00:00"
+}

@@ -1,0 +1,138 @@
+{
+  "pipeline_version": "1.1.0",
+  "started_utc": "2026-10-26T00:00:00+00:00",
+  "config": {
+    "segment": {
+      "target_length_m": 75.0,
+      "time_gap_s": 10.0,
+      "jump_m": 30.0,
+      "stall_eps_m": 0.02,
+      "stall_max_run": 400,
+      "max_pings": 2000,
+      "decimate_m": 2.0
+    },
+    "preview": {
+      "width": 400,
+      "height": 600
+    },
+    "stitch": {
+      "pixel_m": 0.25,
+      "fallback_range_m": 75.0,
+      "sample_stride": 2,
+      "target_max_pings": 180,
+      "max_raster": 9000
+    },
+    "variants": [
+      [
+        "rms_flat",
+        "flat",
+        "rms"
+      ],
+      [
+        "rms_none",
+        "none",
+        "rms"
+      ],
+      [
+        "mean_flat",
+        "flat",
+        "mean"
+      ],
+      [
+        "distance_flat",
+        "flat",
+        "distance"
+      ],
+      [
+        "max_flat",
+        "flat",
+        "max"
+      ]
+    ]
+  },
+  "dataset": {
+    "title": "Raw towed Sidescan Sonar Data (XTF format) along the Chilean Inland Passage Fjord during the Nathaniel B. Palmer expedition NBP0505 (2005)",
+    "doi": "10.1594/IEDA/306159",
+    "cruise_id": "NBP0505",
+    "investigators": [
+      [
+        "Anderson, John",
+        "principalInvestigator"
+      ],
+      [
+        "Hallet, Bernard",
+        "coInvestigator"
+      ]
+    ],
+    "abstract": "Derived SSS ping-level products (CSV, segment index, previews, local stitched products) created with the sss_pipeline reference implementation from raw data collected during the NBP0505 expedition and archived at MGDS.",
+    "keywords": [
+      "sidescan sonar",
+      "EdgeTech 4200",
+      "XTF",
+      "NBP0505",
+      "Chilean fjords"
+    ],
+    "contact_name": "Nitthanet Natthakunlanan",
+    "contact_email": "nitthanet.n68@rsu.ac.th"
+  },
+  "libraries": {
+    "pyxtf": "1.4.2",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "pyproj": "3.6.1",
+    "lxml": "6.0.2",
+    "pillow": "11.1.0",
+    "folium": "0.20.0"
+  },
+  "max_pings": null,
+  "ingestion": {
+    "source_file": "NBP050501A.XTF",
+    "source_bytes": 148874752,
+    "source_sha256": "eff306153151a11908a91fdd669b0c4f22133892833f0b6abcd9c319d6d77c7d",
+    "nav_units": 3,
+    "sonar_name": "Edgetech_4200.E",
+    "declared_sonar_channels": 4,
+    "exposed_sonar_info": 4,
+    "class": "standard",
+    "repair": null,
+    "source_modified": false,
+    "checked_utc": "2026-10-26T00:00:00+00:00"
+  },
+  "parse": {
+    "utm_epsg": 32718,
+    "channel_pair": {
+      "port": 0,
+      "stbd": 1,
+      "freq_khz": [
+        120.0,
+        120.0
+      ],
+      "nadir_first": {
+        "port": false,
+        "stbd": true
+      }
+    },
+    "nav_units": 3,
+    "flat_bottom_height": "altitude above seabed, linearly interpolated where not recorded",
+    "altitude_interpolated_pings": 1281
+  },
+  "outputs_sha256": {
+    "pings.csv": "800cabed4730b791254a7ce2514152fbfbb5908de4a6cfd11eac2f1248aeef2e",
+    "sss_index.geojson": "c652c140c402380b4ffe2ea0807c94054c550d2dc175e49e7370d122484fb0eb",
+    "segment_preview_manifest.json": "99f64d38fdff8999bce06e6a11a02a54be8c6a2c80b6897effe39c946b2ce67e",
+    "segment_mosaic_manifest.json": "ae0b7d5c24487639c14c4cf2f330ee3b16a3dafdc355d324ade1b2a233678400",
+    "metadata/dataset_mgds.xml": "456e271a31f75078227dea34f575edb972dda7687e81d1f3ec0a30a8e56561c3",
+    "metadata/sss_extended.xml": "8b703e8315fb8bfa5ecdbffbaeda231238e08d98509cc8159e0d6a490ae19022",
+    "metrics_summary.csv": "687df5756c26b149c4dbf6a8d26a77780a45f863aa49f5c3d02efab3dbd72339"
+  },
+  "products_tree_sha256": "8693d194d4ab105bb5bbaf7ad9c52a961529869069955e7f2ad8abfa47cf3291",
+  "timings_s": {
+    "1_preflight": 0.47,
+    "2_parse": 42.0,
+    "4_segment": 0.06,
+    "3_metadata": 0.01,
+    "5-7_products_metrics": 398.77,
+    "8_viewer": 11.98
+  },
+  "finished_utc": "2026-10-26T00:00:00+00:00"
+}

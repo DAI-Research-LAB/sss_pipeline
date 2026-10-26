@@ -1,0 +1,307 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "seg_000044",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -73.739295,
+        -46.37139
+      ],
+      [
+        -73.73930333333334,
+        -46.371408333333335
+      ],
+      [
+        -73.73932,
+        -46.37144333333333
+      ],
+      [
+        -73.739335,
+        -46.371478333333336
+      ],
+      [
+        -73.73934333333334,
+        -46.371496666666665
+      ],
+      [
+        -73.73935166666666,
+        -46.371515
+      ],
+      [
+        -73.73935833333333,
+        -46.37153333333333
+      ],
+      [
+        -73.73936666666667,
+        -46.37155166666667
+      ],
+      [
+        -73.73938333333334,
+        -46.371586666666666
+      ],
+      [
+        -73.73939166666666,
+        -46.371605
+      ],
+      [
+        -73.73939833333333,
+        -46.37162333333333
+      ],
+      [
+        -73.73940666666667,
+        -46.37164166666667
+      ],
+      [
+        -73.73941333333333,
+        -46.37166
+      ],
+      [
+        -73.73942166666667,
+        -46.371678333333335
+      ],
+      [
+        -73.73942833333334,
+        -46.371696666666665
+      ],
+      [
+        -73.73943666666666,
+        -46.371715
+      ],
+      [
+        -73.739445,
+        -46.37173333333333
+      ],
+      [
+        -73.73945333333333,
+        -46.37175166666667
+      ],
+      [
+        -73.73946166666667,
+        -46.37177166666667
+      ],
+      [
+        -73.73947,
+        -46.37179
+      ],
+      [
+        -73.73947833333334,
+        -46.371808333333334
+      ],
+      [
+        -73.73948666666666,
+        -46.371826666666664
+      ],
+      [
+        -73.739495,
+        -46.371845
+      ],
+      [
+        -73.73950166666667,
+        -46.371865
+      ],
+      [
+        -73.73951,
+        -46.37188333333334
+      ],
+      [
+        -73.73951666666666,
+        -46.371901666666666
+      ],
+      [
+        -73.73952333333334,
+        -46.37192
+      ],
+      [
+        -73.73953166666666,
+        -46.37194
+      ],
+      [
+        -73.73953833333333,
+        -46.37195833333333
+      ],
+      [
+        -73.73954666666667,
+        -46.37197833333333
+      ],
+      [
+        -73.73955333333333,
+        -46.37199833333333
+      ],
+      [
+        -73.73956,
+        -46.37201666666667
+      ],
+      [
+        -73.73956833333334,
+        -46.372035
+      ],
+      [
+        -73.739575,
+        -46.372053333333334
+      ]
+    ]
+  },
+  "bbox": [
+    -73.739575,
+    -46.372053333333334,
+    -73.739295,
+    -46.37139
+  ],
+  "properties": {
+    "sss:ping_start": 8951,
+    "sss:ping_end": 9207,
+    "sss:n_pings": 257,
+    "sss:length_m": 76.831,
+    "sss:source_sha256": "eff306153151a11908a91fdd669b0c4f22133892833f0b6abcd9c319d6d77c7d",
+    "sss:ingestion_class": "standard",
+    "start_datetime": "2005-07-01T05:33:10.950000Z",
+    "end_datetime": "2005-07-01T05:33:46.960000Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "derived_from",
+      "href": "../../pings.csv",
+      "type": "text/csv",
+      "title": "pings 8951-9207"
+    },
+    {
+      "rel": "root",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "preview": {
+      "href": "../../previews/seg_000044.png",
+      "type": "image/png",
+      "roles": [
+        "overview"
+      ]
+    },
+    "rms_flat": {
+      "href": "../../mosaics/rms_flat/seg_000044.png",
+      "type": "image/png",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "rms",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 99.80928039550781,
+      "roles": [
+        "visual"
+      ]
+    },
+    "rms_flat-grid": {
+      "href": "../../mosaics/rms_flat/seg_000044.npy",
+      "type": "application/octet-stream",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "rms",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 99.80928039550781,
+      "roles": [
+        "data"
+      ]
+    },
+    "mean_flat": {
+      "href": "../../mosaics/mean_flat/seg_000044.png",
+      "type": "image/png",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "mean",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 99.80928039550781,
+      "roles": [
+        "visual"
+      ]
+    },
+    "mean_flat-grid": {
+      "href": "../../mosaics/mean_flat/seg_000044.npy",
+      "type": "application/octet-stream",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "mean",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 99.80928039550781,
+      "roles": [
+        "data"
+      ]
+    },
+    "distance_flat": {
+      "href": "../../mosaics/distance_flat/seg_000044.png",
+      "type": "image/png",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "distance",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 99.80928039550781,
+      "roles": [
+        "visual"
+      ]
+    },
+    "distance_flat-grid": {
+      "href": "../../mosaics/distance_flat/seg_000044.npy",
+      "type": "application/octet-stream",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "distance",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 99.80928039550781,
+      "roles": [
+        "data"
+      ]
+    },
+    "max_flat": {
+      "href": "../../mosaics/max_flat/seg_000044.png",
+      "type": "image/png",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "max",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 99.80928039550781,
+      "roles": [
+        "visual"
+      ]
+    },
+    "max_flat-grid": {
+      "href": "../../mosaics/max_flat/seg_000044.npy",
+      "type": "application/octet-stream",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "max",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 99.80928039550781,
+      "roles": [
+        "data"
+      ]
+    },
+    "rms_none": {
+      "href": "../../mosaics/rms_none/seg_000044.png",
+      "type": "image/png",
+      "sss:slant_range_mode": "none",
+      "sss:fusion": "rms",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 99.80928039550781,
+      "roles": [
+        "visual"
+      ]
+    },
+    "rms_none-grid": {
+      "href": "../../mosaics/rms_none/seg_000044.npy",
+      "type": "application/octet-stream",
+      "sss:slant_range_mode": "none",
+      "sss:fusion": "rms",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 99.80928039550781,
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "NBP0505"
+}

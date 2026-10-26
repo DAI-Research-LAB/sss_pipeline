@@ -1,0 +1,42 @@
+{
+  "NBP0505": {
+    "outputs_identical": true,
+    "products_identical": true,
+    "timings_run_s": {
+      "1_preflight": 0.47,
+      "2_parse": 42.0,
+      "4_segment": 0.06,
+      "3_metadata": 0.01,
+      "5-7_products_metrics": 398.77,
+      "8_viewer": 11.98
+    },
+    "timings_repeat_s": {
+      "1_preflight": 0.52,
+      "2_parse": 25.62,
+      "4_segment": 0.04,
+      "3_metadata": 0.01,
+      "5-7_products_metrics": 214.13,
+      "8_viewer": 11.45
+    }
+  },
+  "NBP1001": {
+    "outputs_identical": true,
+    "products_identical": true,
+    "timings_run_s": {
+      "1_preflight": 0.51,
+      "2_parse": 14.9,
+      "4_segment": 0.03,
+      "3_metadata": 0.01,
+      "5-7_products_metrics": 96.95,
+      "8_viewer": 2.01
+    },
+    "timings_repeat_s": {
+      "1_preflight": 0.52,
+      "2_parse": 23.66,
+      "4_segment": 0.03,
+      "3_metadata": 0.01,
+      "5-7_products_metrics": 152.19,
+      "8_viewer": 4.92
+    }
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "seg_000008",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -62.91783418333333,
+        -64.65021796666667
+      ],
+      [
+        -62.917864716666664,
+        -64.6502378
+      ],
+      [
+        -62.91789516666667,
+        -64.65025765
+      ],
+      [
+        -62.917926216666665,
+        -64.6502776
+      ],
+      [
+        -62.917957316666666,
+        -64.6502976
+      ],
+      [
+        -62.917988466666664,
+        -64.65031765
+      ],
+      [
+        -62.918018933333336,
+        -64.65033766666667
+      ],
+      [
+        -62.91804941666667,
+        -64.6503578
+      ],
+      [
+        -62.91808056666667,
+        -64.65037783333334
+      ],
+      [
+        -62.91811185,
+        -64.6503978
+      ],
+      [
+        -62.91814288333333,
+        -64.65041788333333
+      ],
+      [
+        -62.91817373333333,
+        -64.65043813333334
+      ],
+      [
+        -62.918204816666666,
+        -64.65045823333334
+      ],
+      [
+        -62.918235683333336,
+        -64.65047823333333
+      ],
+      [
+        -62.918266466666665,
+        -64.65049841666666
+      ],
+      [
+        -62.918297966666664,
+        -64.65051863333333
+      ],
+      [
+        -62.91832971666667,
+        -64.65053878333333
+      ],
+      [
+        -62.91836108333333,
+        -64.65055896666667
+      ],
+      [
+        -62.9183918,
+        -64.6505791
+      ],
+      [
+        -62.91842255,
+        -64.65059926666666
+      ],
+      [
+        -62.918454116666666,
+        -64.65061935
+      ],
+      [
+        -62.91848625,
+        -64.65063945
+      ],
+      [
+        -62.91851786666667,
+        -64.65065968333333
+      ],
+      [
+        -62.91854885,
+        -64.65067991666666
+      ],
+      [
+        -62.91857986666667,
+        -64.65070015
+      ],
+      [
+        -62.918611483333336,
+        -64.65072043333333
+      ],
+      [
+        -62.918643083333336,
+        -64.65074066666666
+      ],
+      [
+        -62.91867456666667,
+        -64.65076081666666
+      ],
+      [
+        -62.918705716666665,
+        -64.65078103333333
+      ]
+    ]
+  },
+  "bbox": [
+    -62.918705716666665,
+    -64.65078103333333,
+    -62.91783418333333,
+    -64.65021796666667
+  ],
+  "properties": {
+    "sss:ping_start": 4546,
+    "sss:ping_end": 5105,
+    "sss:n_pings": 560,
+    "sss:length_m": 75.307,
+    "sss:source_sha256": "e47341e712a9fa847c8570788f077f74c8c8c8668d59603b0db363e0e9e71cad",
+    "sss:ingestion_class": "repaired",
+    "start_datetime": "2010-01-18T20:37:40.010000Z",
+    "end_datetime": "2010-01-18T20:38:35.920000Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "derived_from",
+      "href": "../../pings.csv",
+      "type": "text/csv",
+      "title": "pings 4546-5105"
+    },
+    {
+      "rel": "root",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "preview": {
+      "href": "../../previews/seg_000008.png",
+      "type": "image/png",
+      "roles": [
+        "overview"
+      ]
+    },
+    "rms_flat": {
+      "href": "../../mosaics/rms_flat/seg_000008.png",
+      "type": "image/png",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "rms",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 74.25,
+      "roles": [
+        "visual"
+      ]
+    },
+    "rms_flat-grid": {
+      "href": "../../mosaics/rms_flat/seg_000008.npy",
+      "type": "application/octet-stream",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "rms",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 74.25,
+      "roles": [
+        "data"
+      ]
+    },
+    "mean_flat": {
+      "href": "../../mosaics/mean_flat/seg_000008.png",
+      "type": "image/png",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "mean",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 74.25,
+      "roles": [
+        "visual"
+      ]
+    },
+    "mean_flat-grid": {
+      "href": "../../mosaics/mean_flat/seg_000008.npy",
+      "type": "application/octet-stream",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "mean",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 74.25,
+      "roles": [
+        "data"
+      ]
+    },
+    "distance_flat": {
+      "href": "../../mosaics/distance_flat/seg_000008.png",
+      "type": "image/png",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "distance",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 74.25,
+      "roles": [
+        "visual"
+      ]
+    },
+    "distance_flat-grid": {
+      "href": "../../mosaics/distance_flat/seg_000008.npy",
+      "type": "application/octet-stream",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "distance",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 74.25,
+      "roles": [
+        "data"
+      ]
+    },
+    "max_flat": {
+      "href": "../../mosaics/max_flat/seg_000008.png",
+      "type": "image/png",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "max",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 74.25,
+      "roles": [
+        "visual"
+      ]
+    },
+    "max_flat-grid": {
+      "href": "../../mosaics/max_flat/seg_000008.npy",
+      "type": "application/octet-stream",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "max",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 74.25,
+      "roles": [
+        "data"
+      ]
+    },
+    "rms_none": {
+      "href": "../../mosaics/rms_none/seg_000008.png",
+      "type": "image/png",
+      "sss:slant_range_mode": "none",
+      "sss:fusion": "rms",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 74.25,
+      "roles": [
+        "visual"
+      ]
+    },
+    "rms_none-grid": {
+      "href": "../../mosaics/rms_none/seg_000008.npy",
+      "type": "application/octet-stream",
+      "sss:slant_range_mode": "none",
+      "sss:fusion": "rms",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 74.25,
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "NBP1001"
+}

@@ -1,0 +1,267 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "seg_000016",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -73.73164,
+        -46.353115
+      ],
+      [
+        -73.73165333333333,
+        -46.353143333333335
+      ],
+      [
+        -73.731665,
+        -46.35317166666667
+      ],
+      [
+        -73.73167666666667,
+        -46.35320166666666
+      ],
+      [
+        -73.73168666666666,
+        -46.35323
+      ],
+      [
+        -73.73169833333333,
+        -46.353258333333336
+      ],
+      [
+        -73.73171,
+        -46.35328833333333
+      ],
+      [
+        -73.73172333333333,
+        -46.353316666666665
+      ],
+      [
+        -73.73173666666666,
+        -46.35334666666667
+      ],
+      [
+        -73.73174666666667,
+        -46.35337666666667
+      ],
+      [
+        -73.73176,
+        -46.353405
+      ],
+      [
+        -73.73177,
+        -46.353435
+      ],
+      [
+        -73.73178166666666,
+        -46.35346333333333
+      ],
+      [
+        -73.73179333333333,
+        -46.35349333333333
+      ],
+      [
+        -73.73180333333333,
+        -46.353523333333335
+      ],
+      [
+        -73.73181333333333,
+        -46.35355166666667
+      ],
+      [
+        -73.731825,
+        -46.35358166666666
+      ],
+      [
+        -73.731835,
+        -46.35361
+      ],
+      [
+        -73.73184666666667,
+        -46.35364
+      ],
+      [
+        -73.73185666666667,
+        -46.35366833333333
+      ],
+      [
+        -73.73186833333334,
+        -46.353698333333334
+      ],
+      [
+        -73.73188,
+        -46.35372666666667
+      ],
+      [
+        -73.73188833333333,
+        -46.35375666666667
+      ],
+      [
+        -73.73189166666667,
+        -46.353768333333335
+      ]
+    ]
+  },
+  "bbox": [
+    -73.73189166666667,
+    -46.353768333333335,
+    -73.73164,
+    -46.353115
+  ],
+  "properties": {
+    "sss:ping_start": 3301,
+    "sss:ping_end": 3462,
+    "sss:n_pings": 162,
+    "sss:length_m": 75.23,
+    "sss:source_sha256": "eff306153151a11908a91fdd669b0c4f22133892833f0b6abcd9c319d6d77c7d",
+    "sss:ingestion_class": "standard",
+    "start_datetime": "2005-07-01T05:12:00.110000Z",
+    "end_datetime": "2005-07-01T05:12:44.700000Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "derived_from",
+      "href": "../../pings.csv",
+      "type": "text/csv",
+      "title": "pings 3301-3462"
+    },
+    {
+      "rel": "root",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "preview": {
+      "href": "../../previews/seg_000016.png",
+      "type": "image/png",
+      "roles": [
+        "overview"
+      ]
+    },
+    "rms_flat": {
+      "href": "../../mosaics/rms_flat/seg_000016.png",
+      "type": "image/png",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "rms",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 199.79136657714844,
+      "roles": [
+        "visual"
+      ]
+    },
+    "rms_flat-grid": {
+      "href": "../../mosaics/rms_flat/seg_000016.npy",
+      "type": "application/octet-stream",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "rms",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 199.79136657714844,
+      "roles": [
+        "data"
+      ]
+    },
+    "mean_flat": {
+      "href": "../../mosaics/mean_flat/seg_000016.png",
+      "type": "image/png",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "mean",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 199.79136657714844,
+      "roles": [
+        "visual"
+      ]
+    },
+    "mean_flat-grid": {
+      "href": "../../mosaics/mean_flat/seg_000016.npy",
+      "type": "application/octet-stream",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "mean",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 199.79136657714844,
+      "roles": [
+        "data"
+      ]
+    },
+    "distance_flat": {
+      "href": "../../mosaics/distance_flat/seg_000016.png",
+      "type": "image/png",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "distance",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 199.79136657714844,
+      "roles": [
+        "visual"
+      ]
+    },
+    "distance_flat-grid": {
+      "href": "../../mosaics/distance_flat/seg_000016.npy",
+      "type": "application/octet-stream",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "distance",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 199.79136657714844,
+      "roles": [
+        "data"
+      ]
+    },
+    "max_flat": {
+      "href": "../../mosaics/max_flat/seg_000016.png",
+      "type": "image/png",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "max",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 199.79136657714844,
+      "roles": [
+        "visual"
+      ]
+    },
+    "max_flat-grid": {
+      "href": "../../mosaics/max_flat/seg_000016.npy",
+      "type": "application/octet-stream",
+      "sss:slant_range_mode": "flat",
+      "sss:fusion": "max",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 199.79136657714844,
+      "roles": [
+        "data"
+      ]
+    },
+    "rms_none": {
+      "href": "../../mosaics/rms_none/seg_000016.png",
+      "type": "image/png",
+      "sss:slant_range_mode": "none",
+      "sss:fusion": "rms",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 199.79136657714844,
+      "roles": [
+        "visual"
+      ]
+    },
+    "rms_none-grid": {
+      "href": "../../mosaics/rms_none/seg_000016.npy",
+      "type": "application/octet-stream",
+      "sss:slant_range_mode": "none",
+      "sss:fusion": "rms",
+      "sss:pixel_m": 0.25,
+      "sss:range_m": 199.79136657714844,
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "NBP0505"
+}
